@@ -1,0 +1,129 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*Fonts*/
+@font-face {
+    font-family: "josefin";
+    src: url(./fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "josefin-italic";
+    src: url(./fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
+}
+/*Navigation bar*/
+.logo{
+    width: 100px;
+    height:100px;
+    margin: 4px;
+    display: inline-block;
+}
+nav {
+    width: 100%;
+    height: 110px;
+    background-color: aquamarine;
+    font-family: "josefin";
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    position: sticky;
+    top:0px;
+}
+.nav-ul-position{
+    display:inline-block;
+    position: fixed;
+    right: 0;
+}
+.nav-ul-position-cases{
+    display:inline-block;
+}
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 10px;
+    border-right: 1px solid grey;
+    margin: 25px 0px 25px 0px;
+}
+.nav-highlight {
+    font-family: "josefin-italic";
+}
+/*Footer*/
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
+    font-family: "josefin";
+}
+footer ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 2rem;
+}
+.footer-ul-position{
+    display:inline;
+}
+footer p{
+    font-family: "josefin-italic"
+}
+/*General Text styles*/
+h1 {
+    font-family: "josefin";
+    font-size: 3rem;
+    text-align: center;
+}
+h2{
+    font-family: "josefin";
+    font-size: 2rem;
+    text-align: center;
+}
+h3{
+    font-family: "josefin";
+    font-size: 1.5rem;
+}
+p{
+    font-family: "josefin";
+    font-size: 1rem;
+    text-align: center;
+}
+button{
+    font-family: "josefin";
+    text-decoration: none;
+    color: rgb(33, 201, 103);
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+/*Service styles*/
+.p-service-left{
+    width: 50%;
+    text-align: left;
+}
+.p-service-right{
+    width: 50%;
+    text-align: right;
+}
+.h2-left{
+    font-family: "josefin";
+    font-size: 2rem;
+    text-align: left;
+    width: 50%;
+}
+.h2-right{
+    font-family: "josefin";
+    font-size: 2rem;
+    text-align: right;
+    width: 50%;
+}
+/*Image styles*/
+.service-img{
+    width: 250px;
+    height: 250px;
+}
+/*Contact styles*/
+form{
+    text-align: center;
+}
+.map{
+    text-align: center;
+}
