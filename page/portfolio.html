@@ -1,45 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>My Site | Portfolio</title>
-     <!--CSS-->
-     <link rel="stylesheet" href="../style.css">
-     <!--Bootstrap-->
-     <title>Bootstrap</title>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-</head>
-<body>
-     <nav>
-         <img class="logo" src="../img/logo.png" alt="logo">
-         <ul class="nav-ul-position">
-             <li><a href="../index.html">About</a></li>
-             <li><a class="nav-highlight" href="./portfolio.html">Portfolio</a></li>
-             <!--En la pagina Portfolio se muestran sus sub-paginas. Siempre que se navegue en una de ellas o en portfolio las mismas se mostrarán-->
-                 <ul class="nav-ul-position-cases">
-                     <li><a href="./case1.html">Case1</a></li>
-                     <li><a href="./case2.html">Case2</a></li>
-                     <li><a href="./case3.html">Case3</a></li>
-                 </ul>
-             <li><a href="./contact.html">Contact</a></li>
-         </ul>
-     </nav>
-     <main>
-         <h1>Nuestro Portfolio</h1>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Cumque ad labore aspernatur accusamus sunt at velit illum veniam commodi corporis nobis repudiandae eos,<br>explicabo, architecto voluptates perferendis iste mollitia. At.</p>
-         <br>
-         <br>
-     </main>
-     <footer>
-         <ul>
-             <li><a href="https://www.discord.com">Discord</a></li>
-             <li><a href="https://www.Twitter.com">Twitter</a></li>
-             <li><a href="https://www.Github.com">Github</a></li>
-         </ul>
-         <br>
-         <p> Designed by Adrian</p>
-     </footer>
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
-</html>
+ <!DOCTYPE html>
+ <html lang="en">
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>My Site | Portfolio</title>
+          <!--CSS-->
+          <link rel="stylesheet" href="../style.css">
+          <!--Bootstrap-->
+          <title>Bootstrap</title>
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+     </head>
+     <body>
+     <!--Nav Menu-->
+         <nav>
+             <img class="logo" src="../img/logo.png" alt="logo">
+             <ul class="nav-ul-position">
+                 <li><a href="../index.html">About</a></li>
+                 <li><a class="nav-highlight" href="./portfolio.html">Portfolio</a></li>
+                 <!--En la pagina Portfolio se muestran sus sub-paginas. Siempre que se navegue en una de ellas o en portfolio las mismas se mostrarán-->
+                     <ul class="nav-ul-position-cases">
+                         <li><a href="./case1.html">Case1</a></li>
+                         <li><a href="./case2.html">Case2</a></li>
+                         <li><a href="./case3.html">Case3</a></li>
+                     </ul>
+                 <li><a href="./contact.html">Contact</a></li>
+             </ul>
+         </nav>
+     <!--Title and description-->
+         <main>
+
+             <h1>Nuestro Portfolio</h1>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Cumque ad labore aspernatur accusamus sunt at velit illum veniam commodi corporis nobis repudiandae eos,<br>explicabo, architecto voluptates perferendis iste mollitia. At.</p>
+         </main>
+     <!--Grid of cases-->
+         <aside>
+             <!--Case 1-->
+             <section>
+                 <p>Placeholder 1</p>
+             </section>
+             <!--Case 2-->
+             <section>
+                 <p>Placeholder2</p>
+             </section>
+             <!--Case 3-->
+             <section>
+                  <p>Placeholder3</p>
+             </section>
+         </aside>
+     <!--Footer-->
+         <footer>
+         <!--Socials-->
+            <div>
+                <ul class=".footer-ul-position">
+                    <li><a href="https://www.discord.com">Discord</a></li>
+                    <li><a href="https://www.Twitter.com">Twitter</a></li>
+                    <li><a href="https://www.Github.com">Github</a></li>
+                </ul>
+            </div>
+         <!--Trademark-->
+            <div>
+                <p>Designed by Adrian</p>
+            </div>
+        </footer>
+     <!--BS script declaration-->
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+     </body>
+ </html>
