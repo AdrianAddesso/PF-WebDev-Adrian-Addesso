@@ -13,7 +13,7 @@
     src: url(./fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
 }
 /*Navigation bar*/
-.logo{
+.logo {
     width: 100px;
     height:100px;
     margin: 4px;
@@ -31,15 +31,15 @@ nav {
     position: sticky;
     top:0px;
 }
-.nav-ul-position{
+.nav-ul-position {
     display:inline-block;
     position: fixed;
     right: 0;
 }
-.nav-ul-position-cases{
+.nav-ul-position-cases {
     display:inline-block;
 }
-nav ul li{
+nav ul li {
     list-style: none;
     display:inline-block;
     padding: 10px;
@@ -73,21 +73,21 @@ h1 {
     font-size: 3rem;
     text-align: center;
 }
-h2{
+h2 {
     font-family: "josefin";
     font-size: 2rem;
     text-align: center;
 }
-h3{
+h3 {
     font-family: "josefin";
     font-size: 1.5rem;
 }
-p{
+p {
     font-family: "josefin";
     font-size: 1rem;
     text-align: center;
 }
-button{
+button {
     font-family: "josefin";
     text-decoration: none;
     color: rgb(33, 201, 103);
@@ -95,35 +95,35 @@ button{
     text-transform: uppercase;
 }
 /*Service styles*/
-.p-service-left{
+.p-service-left {
     width: 50%;
     text-align: left;
 }
-.p-service-right{
+.p-service-right {
     width: 50%;
     text-align: right;
 }
-.h2-left{
+.h2-left {
     font-family: "josefin";
     font-size: 2rem;
     text-align: left;
     width: 50%;
 }
-.h2-right{
+.h2-right {
     font-family: "josefin";
     font-size: 2rem;
     text-align: right;
     width: 50%;
 }
 /*Image styles*/
-.service-img{
+.service-img {
     width: 250px;
     height: 250px;
 }
 /*Contact styles*/
-form{
+form {
     text-align: center;
 }
-.map{
+.map {
     text-align: center;
 }
