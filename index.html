@@ -8,17 +8,50 @@
          <title>Bootstrap</title>
          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
          <!--CSS-->
-         <link rel="stylesheet" href="style.css">   
+         <link rel="stylesheet" href="./style.css">   
      </head>
      <body>
      <!--Nav Menu-->
-         <nav>
-             <img class="logo" src="./img/logo.png" alt="logo">
-             <ul class="nav-ul-position">
-                 <li><a class="nav-highlight" href="./index.html">About</a></li>
-                 <li><a href="./page/portfolio.html">Portfolio</a></li>
-                 <li><a href="./page/contact.html">Contact</a></li>
-             </ul>
+         <nav class="navbar bg-body-tertiary fixed-top">
+             <div class="container-fluid">
+                 <!--Logo and title-->
+                 <img class="logo" src="./img/logo.png" alt="SuperSeg">
+                 <a class="navbar-brand" href="./index.html"><h2 class="h2-nav">SuperSeg</h2></a>
+                 <!--Folding Menu Button-->
+                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+                 </button>
+                 <!--Inner Menu-->
+                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                     <!--Menu Title and Closure-->
+                     <div class="offcanvas-header">
+                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                     </div>
+                     <div class="offcanvas-body">
+                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                             <!--About Page [CURRENT]-->
+                             <li class="nav-item">
+                                 <a class="nav-link active" aria-current="page" href="./index.html">About</a>
+                             </li>
+                             <!--Dropdown NavBar-->
+                             <li class="nav-item dropdown">
+                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Our Work</a>
+                                 <ul class="dropdown-menu">
+                                     <li><a class="dropdown-item" href="./page/portfolio.html">Porfolio</a></li>
+                                     <li><a class="dropdown-item" href="./page/case1.html">Case 1</a></li>
+                                     <li><a class="dropdown-item" href="./page/case2.html">Case 2</a></li>
+                                     <li><a class="dropdown-item" href="./page/case3.html">Case 3</a></li>
+                                 </ul>
+                             </li>
+                             <!--Contact Page-->
+                             <li class="nav-item">
+                                <a class="nav-link" href="./page/contact.html">Contact</a>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
          </nav>
      <!--Main title-->
          <main>
