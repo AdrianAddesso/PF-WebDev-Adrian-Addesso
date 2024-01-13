@@ -80,22 +80,16 @@
     color: #212529;
 }
 /*Footer*/
-footer {
-    width: 100%;
-    height: 100px;
-    background-color: #00ffff32;
+.nav{
     font-family: "josefin";
+    background-color: #00ffff32;
+    padding-top: 0.5rem;
 }
-footer ul li {
-    list-style: none;
-    display: inline;
-    margin-right: 2rem;
-}
-.footer-ul-position{
-    display:inline;
-}
-footer p{
-    font-family: "josefin-italic"
+/*.fixed-bottom {
+    z-index:auto ;
+}*/
+.nav-link-color{
+    color: #004848;
 }
 /*General Text styles*/
 h1 {
