@@ -13,7 +13,7 @@
      <body>
      <!--Nav Menu-->
          <nav class="navbar bg-body-tertiary fixed-top">
-             <div class="container-fluid">
+             <div class="container-fluid nav--bg nav--margins">
                  <!--Logo and title-->
                  <img class="logo" src="./img/logo.png" alt="SuperSeg">
                  <a class="navbar-brand" href="./index.html"><h2 class="h2-nav">SuperSeg</h2></a>
@@ -54,38 +54,67 @@
              </div>
          </nav>
      <!--Main title-->
-         <main>
-             <h1>Super Seguros</h1>
-             <p>¡Descubre la protección <b>épica</b> para tus superhéroes favoritos en nuestro sitio web! <br> Ofrecemos seguros diseñados exclusivamente para habilidades extraordinarias, desde daños a la propiedad en batallas épicas hasta gastos médicos por enfrentamientos con supervillanos.<br>No dejes que tus héroes enfrenten el peligro sin protección. Únete a nosotros y asegura la tranquilidad de aquellos que velan por la seguridad del mundo.<br><b>¡Porque incluso los superhéroes merecen un escudo!</b></p>
-         </main>
-     <!--Service 1-->
-         <section>
-             <div>
-                 <h2 class="h2-left">HeroGuard</h2>
-                 <p class="p-service-left">Nuestra cobertura exclusiva para daños a la propiedad y lesiones personales, diseñada para proteger a tus superhéroes preferidos durante sus épicas aventuras.<br>¡Mantén a salvo el mundo y su integridad con Escudo HéroeSeguro!</p>  
+         <main class="container-fluid">
+             <div class="row">
+                 <div class="col">
+                     <h1 class="col">Super Seguros</h1>
+                 </div>
              </div>
-             <div>
-                <img class="service-img" src="./img/service1.JPG" alt="HeroGuard" width="250px" height="250px">
+             <div class="row p--centered">
+                 <div class="col-12 col-md-8">
+                     <p>Ofrecemos seguros diseñados exclusivamente para habilidades extraordinarias, desde daños a la propiedad en batallas épicas hasta gastos médicos por enfrentamientos con supervillanos.<br><b>¡Porque incluso los superhéroes merecen un escudo!</b></p>
+                 </div>
+             </div>
+            </div>
+         </main>
+     <!--Service 1 | HeroGuard-->
+         <section class="container-fluid">
+             <div class="row service--position">
+                 <img class="col-12 col-md-4 col-lg-3 img-fluid mx-auto" src="./img/service1.JPG" alt="heroguard">
+                 <div class="col-12 col-md-8 col-lg-9 p--centered">
+                         <h2 class="align--s1">HeroGuard</h2>
+                         <aside>
+                            <p class="align--s1">Nuestra cobertura exclusiva para daños a la propiedad y lesiones personales, diseñada para proteger a tus superhéroes preferidos durante sus épicas aventuras.<br>¡Mantén a salvo el mundo y su integridad con Escudo HéroeSeguro!</p>
+                        </aside>
+                 </div>
              </div>
          </section>
-     <!--Service 2-->
-         <section>
-             <div>
-                 <h2 class="h2-right">PowerMed</h2>
-                 <p class="p-service-right">Un servicio médico excepcional que cubre todos los riesgos asociados con las habilidades extraordinarias de tus héroes. Desde emergencias en combate hasta una recuperación rápida, Protección PowerMed garantiza que la salud de tus superhéroes esté siempre en buenas manos.<br>¡La protección médica que merecen aquellos que salvan el día!t</p>  
+     <!--Service 2 >> Mobile (below 768px) | PowerMed-->
+         <section class="container-fluid serv2--mobile">
+             <div class="row service--position">
+                 <img class="col-12 col-md-4 col-lg-3 img-fluid mx-auto" src="./img/service2.JPG" alt="PowerMed">
+                 <div class="col-12 col-md-8 col-lg-9 p--centered">
+                     <h2 class="align--s2">PowerMed</h2>
+                         <aside>
+                            <p class="align--s2">Un servicio médico excepcional que cubre todos los riesgos asociados con las habilidades extraordinarias de tus héroes. Desde emergencias en combate hasta una recuperación rápida, Protección PowerMed garantiza que la salud de tus superhéroes esté siempre en buenas manos.<br>¡La protección médica que merecen aquellos que salvan el día!</p>
+                         </aside>
+                 </div>
              </div>
-             <div>
-                 <img class="service-img" src="./img/service2.png" alt="PowerMed">
+         </section>
+     <!--Service 2 >> Desktop (above 768px) | PowerMed-->
+         <section class="container-fluid serv2--desktop">
+             <div class="row service--position">
+                 <div class="col-12 col-md-8 col-lg-9 p--centered">
+                         <h2 class="align--s2">PowerMed</h2>
+                         <aside</div>
+                            <p class="align--s2">Un servicio médico excepcional que cubre todos los riesgos asociados con las habilidades extraordinarias de tus héroes. Desde emergencias en combate hasta una recuperación rápida, Protección PowerMed garantiza que la salud de tus superhéroes esté siempre en buenas manos.<br>¡La protección médica que merecen aquellos que salvan el día!</p>
+                     </aside>
+                 </div>
+                 <img class="col-12 col-md-4 col-lg-3 img-fluid mx-auto" src="./img/service2.JPG" alt="PowerMed">
              </div>
          </section>
      <!--Contact button-->
-         <div class="CTA">
-             <button type="button"><a href="./page/contact.html">contact</a></button>
+         <div class="container-fluid btn--home">
+             <div class="row">
+                     <div class="d-grid col-10 col-sm-8 col-md-6 mx-auto ">
+                        <a class="btn btn-outline-primary btn-lg" href="./page/contact.html" role="button">Contactanos</a>
+                     </div>
+             </div>
          </div>
      <!--Footer-->
          <footer>
               <!--Social Media links-->
-             <ul class="nav justify-content-evenly fixed-bottom">
+             <ul class="nav justify-content-evenly sticky-bottom">
                  <li class="nav-item">
                      <a class="nav-link" href="https://www.discord.com">Discord</a>
                  </li>

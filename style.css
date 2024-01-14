@@ -18,9 +18,15 @@
     height:75px;
 }
 .container-fluid {
-    background-color: #00ffff32;
+    margin-top: 1.5rem;
     padding-left: 7%;
     padding-right: 7%;
+}
+.nav--margins {
+    margin-top: 0rem;
+}
+.nav--bg {
+    background-color: #00ffff32;
 }
 .navbar{
     padding-top: 0px;
@@ -85,9 +91,6 @@
     background-color: #00ffff32;
     padding-top: 0.5rem;
 }
-/*.fixed-bottom {
-    z-index:auto ;
-}*/
 .nav-link-color{
     color: #004848;
 }
@@ -96,6 +99,10 @@ h1 {
     font-family: "josefin";
     font-size: 3rem;
     text-align: center;
+    padding-top: 1.25rem;
+    padding-bottom: 0.75rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
 }
 h2 {
     font-family: "josefin";
@@ -106,10 +113,21 @@ h3 {
     font-family: "josefin";
     font-size: 1.5rem;
 }
+.service--position {
+    align-items: center;
+}
+.p--centered{
+    justify-content: center;
+    align-items: center;
+}
 p {
     font-family: "josefin";
     font-size: 1rem;
     text-align: center;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
 }
 button {
     font-family: "josefin";
@@ -119,30 +137,40 @@ button {
     text-transform: uppercase;
 }
 /*Service styles*/
-.p-service-left {
-    width: 50%;
+.align--s1{
     text-align: left;
+    margin-top: 0.75rem;
 }
-.p-service-right {
-    width: 50%;
+.align--s2{
     text-align: right;
+    margin-top: 0.75rem;
 }
-.h2-left {
+.btn{
+    color: #004848;
+    background-color: transparent;
+    border-color: #004848;
+    border-width: 2px;
+}
+.btn:hover{
+    color: #0d6efd;
+    background-color: #00ffff0f;
+    border-color: #0d6efd;
+    border-width: 2px;
+}
+.btn--home{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.btn-outline-primary{
+    background-color:transparent;
+    border-color: #004848;
     font-family: "josefin";
-    font-size: 2rem;
-    text-align: left;
-    width: 50%;
+    text-align: center;
 }
-.h2-right {
-    font-family: "josefin";
-    font-size: 2rem;
-    text-align: right;
-    width: 50%;
-}
-/*Image styles*/
-.service-img {
-    width: 250px;
-    height: 250px;
+.sticky-bottom {
+    position:sticky;
+    bottom: 0;
 }
 /*Contact styles*/
 form {
@@ -153,7 +181,12 @@ form {
 }
 /*MediaQueries/*
 /*Folding menu with width<1024*/
-@media (max-width: 479px){
+@media (max-width: 480px){
+    h1 {
+        font-size: 2.5rem;
+        padding-top: .75rem;
+        padding-bottom: 0.5rem;
+    }
      .offcanvas {
          --bs-offcanvas-width: 100%;
      }
@@ -188,11 +221,35 @@ form {
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
+    .img-fluid{
+        max-width: 200px;
+        max-height: 200px;
+        margin-bottom: 0.75rem;
+    }
+    .align--s1{
+        text-align: center;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    }
+    .align--s2{
+        text-align: center;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    }
+    .serv2--desktop{
+        display: none;
+    }
 }
 @media (min-width:480px) and (max-width: 600px){
+    h1 {
+        font-size: 2.5rem;
+        padding-top: .75rem;
+        padding-bottom: 0.5rem;
+    }
     .offcanvas {
         --bs-offcanvas-width: 75%;
     }
+    
     .btn-close{
         width: 2px;
         height: 2px;
@@ -217,9 +274,32 @@ form {
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
+    .img-fluid{
+        max-width: 200px;
+        max-height: 200px;
+        margin-bottom: 0.75rem;
+    }
+    .align--s1{
+        text-align: center;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    }
+    .align--s2{
+        text-align: center;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    }
+    .serv2--desktop{
+        display: none;
+    }
 }
 
 @media (min-width:601px) and (max-width: 768px){
+    h1 {
+        font-size: 2.5rem;
+        padding-top: .75rem;
+        padding-bottom: 0.5rem;
+    }
     .offcanvas {
         --bs-offcanvas-width: 50%;
     }
@@ -242,5 +322,23 @@ form {
     .dropdown-item {
         padding-top: 1rem;
         padding-bottom: 1rem;
+    }
+    .img-fluid{
+        max-width: 200px;
+        max-height: 200px;
+    }
+    .align--s1{
+        text-align: center;
+    }
+    .align--s2{
+        text-align: center;
+    }
+    .serv2--desktop{
+        display:none;
+    }
+}
+@media (min-width:768px){
+    .serv2--mobile{
+        display:none;
     }
 }
