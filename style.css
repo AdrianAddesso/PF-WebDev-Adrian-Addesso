@@ -86,6 +86,9 @@
     color: #212529;
 }
 /*Footer*/
+footer {
+     margin-top: 1.5rem;
+}
 .nav{
     font-family: "josefin";
     background-color: #00ffff32;
@@ -112,6 +115,10 @@ h2 {
 h3 {
     font-family: "josefin";
     font-size: 1.5rem;
+}
+.border {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .service--position {
     align-items: center;
@@ -172,8 +179,19 @@ button {
     position:sticky;
     bottom: 0;
 }
+/*Porfolio styles*/
+.card {
+    background-color: #00ffff0f;
+}
+
+/*Cases*/
+/*.img--case {
+    height: 100px;
+    overflow:unset
+}*/
 /*Contact styles*/
 form {
+    font-family: "josefin";
     text-align: center;
 }
 .map {
@@ -186,6 +204,9 @@ form {
         font-size: 2.5rem;
         padding-top: .75rem;
         padding-bottom: 0.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
     }
      .offcanvas {
          --bs-offcanvas-width: 100%;
@@ -245,6 +266,9 @@ form {
         font-size: 2.5rem;
         padding-top: .75rem;
         padding-bottom: 0.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
     }
     .offcanvas {
         --bs-offcanvas-width: 75%;
