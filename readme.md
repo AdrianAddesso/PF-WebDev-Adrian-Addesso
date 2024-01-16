@@ -11,27 +11,27 @@ Actualmente seteado en el branch "PreEntrega2". Se seteará en "main" cuando se 
 3. Se creará un nuevo Branch para la entrega final (nombre a definir)
 
 ## Plan de trabajo
-Issues ❗
-{empty...enjoy!}
+### Issues ❗
+-  {empty...enjoy!}
 
-Commits en progreso 🚧
-🚧 Define GRID in Cases (case1.html | case2.html | case3.html)
+### Commits en progreso 🚧
+- 🚧 Define GRID in Cases (case1.html | case2.html | case3.html)
 
-Commits planificados 💡
-💡 Define GRID in contact.html
-💡 Define GRID in Cases (case1.html | case2.html | case3.html)
-💡 Define GRID in contact.html
-💡 Define GRID viewports in all pages
-💡 Implement responsive Form Component in contact.html
-💡 Implement rating (stars) in Cases (case1.html | case2.html | case3.html)
-💡 Review CSS for missing BEM notations & fixes
+### Commits planificados 💡
+- 💡 Define GRID in contact.html
+- 💡 Define GRID in Cases (case1.html | case2.html | case3.html)
+- 💡 Define GRID in contact.html
+- 💡 Define GRID viewports in all pages
+- 💡 Implement responsive Form Component in contact.html
+- 💡 Implement rating (stars) in Cases (case1.html | case2.html | case3.html)
+- 💡 Review CSS for missing BEM notations & fixes
 
-Commits hechos ✅
-✅ BS delcared in all pages 
-✅ Fixed tabulation in all pages
-✅ Implement responsive Nav sticky Component in all pages
-✅ Implement responsive Footer Component in all pages
-✅ Updated GRID in Index.html + Added buttons and card style in Index.html + Updated Portfolio, Cases and Index images + Content Translation + Define GRID in Portfolio.html
-✅ Added favicon
-✅ Added readme.md
-✅ Improve the order of style.css elements
+### Commits realizados ✅
+- ✅ BS delcared in all pages 
+- ✅ Fixed tabulation in all pages
+- ✅ Implement responsive Nav sticky Component in all pages
+- ✅ Implement responsive Footer Component in all pages
+- ✅ Updated GRID in Index.html + Added buttons and card style in Index.html + Updated Portfolio, Cases and Index images + Content Translation + Define GRID in Portfolio.html
+- ✅ Added favicon
+- ✅ Added readme.md
+- ✅ Improve the order of style.css elements
