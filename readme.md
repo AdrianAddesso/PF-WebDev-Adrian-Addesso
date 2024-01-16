@@ -12,7 +12,7 @@ Actualmente seteado en el branch "PreEntrega2". Se seteará en "main" cuando se 
 
 ## Plan de trabajo
 Issues ❗
-❗ Improve the order of style.css elements
+{empty...enjoy!}
 
 Commits en progreso 🚧
 🚧 Define GRID in Cases (case1.html | case2.html | case3.html)
@@ -34,3 +34,4 @@ Commits hechos ✅
 ✅ Updated GRID in Index.html + Added buttons and card style in Index.html + Updated Portfolio, Cases and Index images + Content Translation + Define GRID in Portfolio.html
 ✅ Added favicon
 ✅ Added readme.md
+✅ Improve the order of style.css elements
