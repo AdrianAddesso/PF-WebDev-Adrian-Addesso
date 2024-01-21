@@ -35,3 +35,4 @@ Actualmente seteado en el branch "PreEntrega2". Se seteará en "main" cuando se 
 - ✅ Added favicon
 - ✅ Added readme.md
 - ✅ Improve the order of style.css elements
+- ✅ Move style.css to a folder

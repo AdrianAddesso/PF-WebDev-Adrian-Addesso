@@ -6,11 +6,11 @@
 /*# >>> Fonts*/
 @font-face {
     font-family: "josefin";
-    src: url(./fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+    src: url(../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
 }
 @font-face {
     font-family: "josefin-italic";
-    src: url(./fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
+    src: url(../fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
 }
 
 /*# >>> Component Styles*/
