@@ -60,18 +60,19 @@ p {
     margin-top: 0rem;
     margin-bottom: 1rem;
 }
-button {
+/*button {
     font-family: "josefin";
     text-decoration: none;
     color: rgb(33, 201, 103);
     font-size: 1.25rem;
     text-transform: uppercase;
-}
+}*/
 .btn{
     color: #004848;
     background-color: transparent;
     border-color: #004848;
     border-width: 2px;
+    font-family: "josefin";
 }
 .btn:hover{
     color: #0d6efd;
@@ -200,10 +201,26 @@ iframe {
 form {
     font-family: "josefin";
     text-align: center;
+    justify-content: center;
 }
 .map {
-    text-align: center;
+    justify-content: center;
 }
+
+.floatingInput {
+    font-family: "josefin";
+} 
+.form-control:focus {
+    font-family: "josefin";
+    box-shadow: 0 0 0 0.1rem #0d6efd;
+}
+.modal-footer{
+    justify-content: center;
+}
+.modal-header {
+    align-self: center;
+}
+
 /*# >>> MediaQueries/*
 /* >>>  >>> Folding menu with width<480*/
 @media (max-width: 480px){

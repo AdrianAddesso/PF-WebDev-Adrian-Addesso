@@ -60,41 +60,77 @@
      <!--Title and Location-->
          <main>
          <!--Title and Description-->
-             <h1>Veni a conocernos</h1>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Cumque ad labore aspernatur accusamus sunt at velit illum veniam commodi corporis nobis repudiandae eos,<br>explicabo, architecto voluptates perferendis iste mollitia. At.</p>
+             <div class="container-fluid">
+                 <div class="row p--centered">
+                     <div class="col col-12 col-md-8">
+                         <h1>Veni a conocernos</h1>
+                         <p>¡Bienvenido a nuestra página de contacto! Estamos ubicados en el pintoresco Mina Clavero, Córdoba. Conéctate con nosotros para descubrir cómo podemos ayudarte.</p>
+                     </div>
+                 </div>
+             </div>
          <!--Map Location-->
-             <div class="map">
-                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27148.16476598301!2d-65.05021090865093!3d-31.728988219258444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d25d59048c4dd%3A0xa693b3400e45cb6c!2sMina%20Clavero%2C%20C%C3%B3rdoba%20Province!5e0!3m2!1sen!2sar!4v1701597785735!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             <div class="container-fluid">
+                <div class="row map">
+                     <div class="col col-12 col-md-8 border border-2 border-opacity-50">
+                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27148.16476598301!2d-65.05021090865093!3d-31.728988219258444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d25d59048c4dd%3A0xa693b3400e45cb6c!2sMina%20Clavero%2C%20C%C3%B3rdoba%20Province!5e0!3m2!1sen!2sar!4v1701597785735!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                     </div>
+                 </div>
              </div>
          </main>
      <!--Contact Form-->
          <section>
          <!--Title-->
-             <h2>Contactanos</h2>
+         <div class="container-fluid">
+             <div class="row p--centered">
+                 <div class="col col-12 col-md-8">
+                     <h2>Contáctanos</h2>
+                     <p>Envíanos un mensaje y un super asesor se podrá comunicará contigo</p>
+                 </div>
+             </div>
+         </div>
          <!--Form-->
-             <form action="" method="post">
-                 <!--Email input-->
-                 <div class="contact-form">
-                    <label for="Email">Email</label>
-                    <input type="email" name="Su email" id="email">
-                 </div>
-                 <!--Name input-->
-                 <div>
-                     <label for="Nombre">Nombre y Apellido</label>
-                     <input type="text" name="Nombre" id="nombre">
-                 </div>
-                 <!--Phone input-->
-                 <div>
-                     <label for="Telefono">Telefono de contacto</label>
-                     <input type="tel" name="Telefono" id="telefono">
-                 </div>
-                 <!--Submit CTA-->
-                 <div>
-                     <label for="enviar">Enviar</label>
-                     <input type="submit" value="Enviar">
+         <aside class="container-fluid">
+             <form class="row p--centered needs-validation" novalidate>
+                 <div class="col col-12 col-md-8">
+                     <!--Name input-->
+                     <div class="form-floating mb-3">
+                         <input type="text" class="form-control" id="floatingInput" placeholder="Full Name" required>
+                         <label for="floatingInput">Nombre y Apellido</label>
+                     </div>
+                     <!--Email input-->
+                     <div class="form-floating mb-3">
+                         <input type="email" class="form-control" id="floatingInput" placeholder="Mail" required>
+                         <label for="floatingInput">Email</label>
+                     </div>
+                     <!--Phone input-->
+                     <div class="form-floating mb-3">
+                         <input type="phone" class="form-control" id="floatingInput" placeholder="Phone" required>
+                         <label for="floatingInput">Teléfono</label>
+                     </div>
+                     <!--Send button | Modal trigger-->
+                     <div class="d-grid col-10 col-sm-8 col-md-6 mx-auto">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Enviar</button>
+                     </div>
+                     <!-- Modal -->
+                     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                         <div class="modal-dialog">
+                             <div class="modal-content">
+                                  <div class="modal-header">
+                                     <h2 class="modal-title fs-5" id="staticBackdropLabel">Gracias por contactarnos!</h2>
+                                 </div>
+                                     <div class="modal-body">
+                                     <p>Tu mensaje fué enviado con éxito.<br>Te responderemos en un plazo de 48h hábiles.</p>
+                                     </div>
+                                     <div class="modal-footer">
+                                         <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
                  </div>
              </form>
-         </section>
+         </aside>
      <!--Footer-->
          <footer>
              <!--Social Media links-->

@@ -15,13 +15,9 @@ Actualmente seteado en el branch "PreEntrega2". Se seteará en "main" cuando se 
 -  {empty...enjoy!}
 
 ### Commits en progreso 🚧
-- 🚧 Define GRID in contact.html
-- 🚧 Implement responsive Form Component in contact.html
+- 🚧 Review CSS for missing BEM notations & fixes
 
 ### Commits planificados 💡
-- 💡 Define GRID in contact.html
-- 💡 Define GRID viewports in all pages
-- 💡 Implement responsive Form Component in contact.html
 - 💡 Review CSS for missing BEM notations & fixes
 - 💡 Install SASS
 - 💡 Migrate to SASS 
@@ -38,3 +34,5 @@ Actualmente seteado en el branch "PreEntrega2". Se seteará en "main" cuando se 
 - ✅ Move style.css to a folder
 - ✅ Define GRID in Cases (case1.html | case2.html | case3.html)
 - ✅ Implement rating (stars) in Cases (case1.html | case2.html | case3.html)
+- ✅ Define GRID in contact.html
+- ✅ Implement responsive Form Component in contact.html
