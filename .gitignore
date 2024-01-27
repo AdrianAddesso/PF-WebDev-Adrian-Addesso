@@ -1,0 +1,8 @@
+# Files to ifnore
+package.json
+img_cache
+*.txt
+
+# VSC config files
+.vscode/settings.json
+.vscode

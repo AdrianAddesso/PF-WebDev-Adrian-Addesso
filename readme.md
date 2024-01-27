@@ -17,11 +17,12 @@ Actualmente seteado en el branch "PreEntrega2". Se seteará en "main" cuando se 
 
 ### Commits en progreso 🚧
 - 🚧 Review CSS for missing BEM notations & fixes
+- 🚧 Crear git.ignore
 
 ### Commits planificados 💡
-- 💡 Review CSS for missing BEM notations & fixes
 - 💡 Install SASS
-- 💡 Migrate to SASS 
+- 💡 Migrate to SASS
+- 💡 Add animations
 
 ### Commits realizados ✅
 - ✅ BS delcared in all pages 

@@ -1,0 +1,15 @@
+.btn {
+  color: #004848;
+  background-color: transparent;
+  border-color: #004848;
+  border-width: 2px;
+  font-family: "josefin";
+}
+.btn:hover {
+  color: #0d6efd;
+  background-color: rgba(0, 255, 255, 0.0588235294);
+  border-color: #0d6efd;
+  border-width: 2px;
+}
+
+/*# sourceMappingURL=main.css.map */
