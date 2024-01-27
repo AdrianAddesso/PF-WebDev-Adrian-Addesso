@@ -12,14 +12,12 @@ Actualmente seteado en el branch "PreEntrega2". Se seteará en "main" cuando se 
 
 ## Plan de trabajo
 ### Issues ❗
-- Agregar HEAD
-- Revisar y reducir la cantidad de Div y reemplazarlos por etiquetas semánticas correspondientes
+- No issues...enjoy!
 
 ### Commits en progreso 🚧
 - 🚧 Review CSS for missing BEM notations & fixes
 
 ### Commits planificados 💡
-
 - 💡 Migrate to SASS
 - 💡 Add animations
 
