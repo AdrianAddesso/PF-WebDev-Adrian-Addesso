@@ -12,7 +12,8 @@ Actualmente seteado en el branch "PreEntrega2". Se seteará en "main" cuando se 
 
 ## Plan de trabajo
 ### Issues ❗
--  {empty...enjoy!}
+- Agregar HEAD
+- Revisar y reducir la cantidad de Div y reemplazarlos por etiquetas semánticas correspondientes
 
 ### Commits en progreso 🚧
 - 🚧 Review CSS for missing BEM notations & fixes
@@ -36,3 +37,4 @@ Actualmente seteado en el branch "PreEntrega2". Se seteará en "main" cuando se 
 - ✅ Implement rating (stars) in Cases (case1.html | case2.html | case3.html)
 - ✅ Define GRID in contact.html
 - ✅ Implement responsive Form Component in contact.html
+- ✅ Added <head> to the Nav elements, and replaced <div> for more proper semantic tags

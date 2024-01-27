@@ -16,51 +16,52 @@
      </head>
      <body>
      <!--Nav Menu-->
-         <nav class="navbar bg-body-tertiary fixed-top">
-             <div class="container-fluid nav nav--margins">
-                 <!--Logo and title-->
-                 <img class="logo" src="../img/logo.png" alt="SuperSeg">
-                 <a class="navbar-brand" href="../index.html"><h2 class="h2-nav">SuperSeg</h2></a>
-                 <!--Folding Menu Button-->
-                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                     <span class="navbar-toggler-icon"></span>
-                 </button>
-                 <!--Inner Menu-->
-                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                     <!--Menu Title and Closure-->
-                     <div class="offcanvas-header">
-                         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                     </div>
-                     <div class="offcanvas-body">
-                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                             <!--About Page-->
-                             <li class="nav-item">
-                                 <a class="nav-link" aria-current="page" href="../index.html">Nosotros</a>
-                             </li>
-                             <!--Dropdown NavBar [CURRENT]-->
-                             <li class="nav-item dropdown">
-                                 <a class="nav-link active--dropdown dropdown-toggle show" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">Nuestro Trabajo</a>
-                                 <ul class="dropdown-menu show" data-bs-popper="static">
-                                     <li><a class="dropdown-item" href="./porfolio.html">Porfolio</a></li>
-                                     <li><a class="dropdown-item" href="./case1.html">Los Vengadores</a></li>
-                                     <li><a class="dropdown-item" href="./case2.html">Liga de la Justicia</a></li>
-                                     <!--User selected option [CURRENT]-->
-                                     <li><a class="dropdown-item active" href="./case3.html">Paw Patrol</a></li>
-                                 </ul>
-                             </li>
-                             <!--Contact Page-->
-                             <li class="nav-item">
-                                 <a class="nav-link" href="./contact.html">Contacto</a>
-                             </li>
-                         </ul>
+         <header>
+             <nav class="navbar bg-body-tertiary fixed-top">
+                 <div class="container-fluid nav nav--margins">
+                     <!--Logo and title-->
+                     <img class="logo" src="../img/logo.png" alt="SuperSeg" >
+                     <a class="navbar-brand" href="../index.html"><h2 class="h2-nav">SuperSeg</h2></a>
+                     <!--Folding Menu Button-->
+                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <!--Inner Menu-->
+                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                         <!--Menu Title and Closure-->
+                         <div class="offcanvas-header">
+                             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                         </div>
+                         <div class="offcanvas-body">
+                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                 <!--About Page [CURRENT]-->
+                                 <li class="nav-item">
+                                     <a class="nav-link active" aria-current="page" href="../index.html">Nosotros</a>
+                                 </li>
+                                 <!--Dropdown NavBar-->
+                                 <li class="nav-item dropdown">
+                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nuestro Trabajo</a>
+                                     <ul class="dropdown-menu">
+                                         <li><a class="dropdown-item" href="./porfolio.html">Porfolio</a></li>
+                                         <li><a class="dropdown-item" href="./case1.html">Los Vengadores</a></li>
+                                         <li><a class="dropdown-item" href="./case2.html">Liga de la Justicia</a></li>
+                                         <li><a class="dropdown-item" href="./case3.html">Paw Patrol</a></li>
+                                     </ul>
+                                 </li>
+                                 <!--Contact Page-->
+                                 <li class="nav-item">
+                                     <a class="nav-link" href="./contact.html">Contacto</a>
+                                 </li>
+                             </ul>
+                         </div>
                      </div>
                  </div>
-             </div>
-         </nav>
+             </nav>
+         </header>
      <!--Case 3 Description-->
-     <main class="container-fluid">
-        <!--Title and Subtitle-->
+         <main class="container-fluid">
+         <!--Title and Subtitle-->
              <div class="row">
                  <div class="col">
                      <h1>PawPatrol</h1>
@@ -81,7 +82,7 @@
              </div>
          </main>
      <!--Client Review and rating-->
-         <aside class="container-fluid">
+         <section class="container-fluid">
              <div class="row p--centered">
                  <div class="col-12 col-md-8 col-lg-6">
                      <iframe width="560" height="315" src="https://www.youtube.com/embed/xFOR1l7vvRY?si=spLCreuS-i-OMjwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -92,15 +93,15 @@
                      <p class="align--s1 stars">🐶🐶🐶🐶🐶</p>
                 </div>
             </div>
-         </aside>
+         </section>
      <!--Contact button-->
-         <div class="container-fluid btn--home">
+         <aside class="container-fluid btn--home">
              <div class="row">
                  <div class="d-grid col-10 col-sm-6 col-md-4 mx-auto">
                      <a class="btn btn-outline-primary btn-lg" href="./contact.html" role="button">Contratar</a>
                  </div>
              </div>
-         </div>
+         </aside>
      <!--Footer-->
          <footer>
              <!--Social Media links-->
