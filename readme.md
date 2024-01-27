@@ -17,10 +17,9 @@ Actualmente seteado en el branch "PreEntrega2". Se seteará en "main" cuando se 
 
 ### Commits en progreso 🚧
 - 🚧 Review CSS for missing BEM notations & fixes
-- 🚧 Crear git.ignore
 
 ### Commits planificados 💡
-- 💡 Install SASS
+
 - 💡 Migrate to SASS
 - 💡 Add animations
 
@@ -39,3 +38,5 @@ Actualmente seteado en el branch "PreEntrega2". Se seteará en "main" cuando se 
 - ✅ Define GRID in contact.html
 - ✅ Implement responsive Form Component in contact.html
 - ✅ Added <head> to the Nav elements, and replaced <div> for more proper semantic tags
+- ✅ Install SASS
+- ✅ Crear git.ignore
