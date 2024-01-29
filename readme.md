@@ -16,9 +16,9 @@ Actualmente seteado en el branch "PreEntrega2". Se seteará en "main" cuando se 
 
 ### Commits en progreso 🚧
 - 🚧 Review CSS for missing BEM notations & fixes
+- 🚧 Migrate to SASS
 
 ### Commits planificados 💡
-- 💡 Migrate to SASS
 - 💡 Add animations
 
 ### Commits realizados ✅

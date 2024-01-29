@@ -1,0 +1,12 @@
+//Margins
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: $font-main;
+}
+//Installed Font Declaration+Route
+@font-face {
+    font-family: "josefin";
+    src: url(../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
+

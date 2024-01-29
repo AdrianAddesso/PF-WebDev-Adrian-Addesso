@@ -1,14 +1,14 @@
-/*Reset*/
-@import 'reset/reset';
+//Reset
 @import 'reset/vars';
+@import 'reset/reset';
 @import 'reset/mixin';
 
-/*Main Structure*/
+//Main Structure
 @import 'components/header';
 @import 'components/principal';
 @import 'components/btn';
 @import 'components/contact';
 @import 'components/footer';
 
-/*Media Queries*/
+//Media Queries
 @import 'components/mediaq';

@@ -1,5 +1,186 @@
-/*Reset*/
-/*Main Structure*/
-/*Media Queries*/
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "josefin";
+}
+
+@font-face {
+  font-family: "josefin";
+  src: url(../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h2-nav {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  .offcanvas {
+    --bs-offcanvas-width: 100%;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  .btn-close {
+    width: 2px;
+    height: 2px;
+  }
+  .offcanvas-header {
+    padding-top: 1rem;
+    padding-bottom: 0.75rem;
+  }
+  .offcanvas-body {
+    padding-top: 0rem;
+  }
+  .nav-link {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .dropdown-menu {
+    margin-top: 0rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+  .dropdown-item {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .img-fluid {
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 0.75rem;
+  }
+  .align--s1 {
+    text-align: center;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+  .align--s2 {
+    text-align: center;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+  .imgshow--desktop {
+    display: none;
+  }
+}
+/* >>>  >>> Folding menu with 480<width<600*/
+@media (min-width: 480px) and (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  .offcanvas {
+    --bs-offcanvas-width: 75%;
+  }
+  .btn-close {
+    width: 2px;
+    height: 2px;
+  }
+  .offcanvas-header {
+    padding-top: 1rem;
+    padding-bottom: 0.75rem;
+  }
+  .offcanvas-body {
+    padding-top: 0rem;
+  }
+  .nav-link {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .dropdown-menu.show {
+    margin-top: 0rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+  .dropdown-item {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .img-fluid {
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 0.75rem;
+  }
+  .align--s1 {
+    text-align: center;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+  .align--s2 {
+    text-align: center;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+  .imgshow--desktop {
+    display: none;
+  }
+}
+/* >>>  >>> Folding menu with 601<width<768*/
+@media (min-width: 601px) and (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.5rem;
+  }
+  .offcanvas {
+    --bs-offcanvas-width: 50%;
+  }
+  .offcanvas-header {
+    padding-top: 1rem;
+    padding-bottom: 0.75rem;
+  }
+  .offcanvas-body {
+    padding-top: 0rem;
+  }
+  .nav-link {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .dropdown-menu.show {
+    margin-top: 0rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+  .dropdown-item {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .img-fluid {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  .align--s1 {
+    text-align: center;
+  }
+  .align--s2 {
+    text-align: center;
+  }
+  .imgshow--desktop {
+    display: none;
+  }
+}
+/* >>>  >>> Folding menu with 768<width*/
+@media (min-width: 768px) {
+  .imgshow--mobile {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

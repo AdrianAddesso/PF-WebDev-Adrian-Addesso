@@ -1,4 +1,13 @@
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*# >>> Fonts*/
+@font-face {
+    font-family: "josefin";
+    src: url(../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
 /*# >>> Component Styles*/
 /*## >>>  >>> Text Styles*/
 
@@ -46,6 +55,13 @@ p {
     margin-top: 0rem;
     margin-bottom: 1rem;
 }
+/*button {
+    font-family: "josefin";
+    text-decoration: none;
+    color: rgb(33, 201, 103);
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}*/
 .btn{
     color: #004848;
     background-color: transparent;
@@ -125,7 +141,7 @@ p {
     padding-right: 2rem;
     padding-top: 0px;
 }
-.dropdown-menu.show {
+.dropdown-menu {
     background-color: transparent;
     border:none;
     padding-top: 0rem;
@@ -239,7 +255,7 @@ form {
         padding-top: 1rem;;
         padding-bottom: 1rem;
     }
-    .dropdown-menu.show {
+    .dropdown-menu {
         margin-top: 0rem;
         padding-top: 0rem;
         padding-bottom: 0rem;
@@ -265,5 +281,115 @@ form {
     }
     .imgshow--desktop{
         display: none;
+    }
+}
+/* >>>  >>> Folding menu with 480<width<600*/
+@media (min-width:480px) and (max-width: 600px){
+    h1 {
+        font-size: 2.5rem;
+        padding-top: .75rem;
+        padding-bottom: 0.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.25rem;
+    }
+    .offcanvas {
+        --bs-offcanvas-width: 75%;
+    }
+    
+    .btn-close{
+        width: 2px;
+        height: 2px;
+    }
+    .offcanvas-header {
+        padding-top: 1rem;
+        padding-bottom: 0.75rem;
+    }
+    .offcanvas-body {
+        padding-top: 0rem;
+    }
+    .nav-link {
+        padding-top: 1rem;;
+        padding-bottom: 1rem;
+    }
+    .dropdown-menu {
+        margin-top: 0rem;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+    .dropdown-item {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .img-fluid{
+        max-width: 200px;
+        max-height: 200px;
+        margin-bottom: 0.75rem;
+    }
+    .align--s1{
+        text-align: center;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    }
+    .align--s2{
+        text-align: center;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    }
+    .imgshow--desktop{
+        display: none;
+    }
+}
+/* >>>  >>> Folding menu with 601<width<768*/
+@media (min-width:601px) and (max-width: 768px){
+    h1 {
+        font-size: 2.5rem;
+        padding-top: .75rem;
+        padding-bottom: 0.5rem;
+    }
+    .offcanvas {
+        --bs-offcanvas-width: 50%;
+    }
+    .offcanvas-header {
+        padding-top: 1rem;
+        padding-bottom: 0.75rem;
+    }
+    .offcanvas-body {
+        padding-top: 0rem;
+    }
+    .nav-link {
+        padding-top: 1rem;;
+        padding-bottom: 1rem;
+    }
+    .dropdown-menu {
+        margin-top: 0rem;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+    .dropdown-item {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .img-fluid{
+        max-width: 200px;
+        max-height: 200px;
+    }
+    .align--s1{
+        text-align: center;
+    }
+    .align--s2{
+        text-align: center;
+    }
+    .imgshow--desktop{
+        display:none;
+    }
+}
+/* >>>  >>> Folding menu with 768<width*/
+@media (min-width:768px){
+    .imgshow--mobile{
+        display:none;
     }
 }
