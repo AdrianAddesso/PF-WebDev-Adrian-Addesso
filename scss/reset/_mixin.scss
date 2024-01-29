@@ -1,0 +1,61 @@
+//Without Parameters
+@mixin img-limits{
+    max-width: 80%;
+    max-height: 80%;
+}
+@mixin padding-lrbg{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: $dark-bg;
+}
+@mixin border-bgcf{
+    background-color: transparent;
+    border-color: $cta;
+    font-family: $font-main;
+}
+
+//With Parameters
+@mixin padding-tb($t,$b){
+    padding-top: $t;
+    padding-bottom: $b;
+}
+@mixin size-wh($w,$h){
+    width: $w;
+    height: $h;
+}
+@mixin align-margins($a,$t,$b){
+    text-align: $a;
+    margin-top: $t;
+    margin-bottom: $b;
+}
+@mixin fontfam($f,$s,$a){
+    font-family: $f;
+    font-size: $s;
+    text-align: $a;
+}
+@mixin fonts($f,$s){
+    font-family: $f;
+    font-size: $s;
+}
+@mixin font-p($f,$s,$pt,$pb,$a,$mt,$mb){
+    font-family: $f;
+    font-size: $s;
+    padding-top: $pt;
+    padding-bottom: $pb;
+    text-align: $a;
+    margin-top: $mt;
+    margin-bottom: $mb;
+}
+@mixin padding-lrm($l,$r,$m){
+    padding-left: $l;
+    padding-right: $r;
+    margin-top: $m;
+}
+@mixin max-wh{
+    max-width: 80%;
+    max-height: 80%;
+}
+@mixin txt-almar($t,$mt){
+    text-align: $t;
+    margin-top: $mt;
+}

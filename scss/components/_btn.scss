@@ -1,0 +1,18 @@
+.btn{
+    color: $cta;
+    @include border-bgcf;
+    border-width: 2px;
+    &:hover{
+        color: $btn-hover;
+        background-color: $dark-bg;
+        border-color: $btn-hover;
+        border-width: 2px;
+    }
+    &-outline-primary{
+        @include border-bgcf;
+        text-align: center;
+    }
+    &--home{
+        @include align-margins(center,3rem,3rem);
+    }
+}

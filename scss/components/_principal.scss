@@ -1,0 +1,52 @@
+//Text Styles
+h1 {
+    @include font-p($font-main,3rem,1.25rem,0.75rem,center,0.25rem,0.25rem);
+}
+h2 {
+    @include fontfam($font-main,2rem,center);
+}
+h3 {
+    @include fontfam($font-main,1.5rem,center);
+}
+//Bootstrap grids
+.container-fluid {
+    @include padding-lrm (7%,7%,1.5rem);
+}
+.bg-body-tertiary {
+    background-color: $light-bg;
+}
+.border {
+    @include padding-tb(1rem,1rem);
+}
+.p--centered{
+    justify-content: center;
+    align-items: center;
+}
+p {
+    @include font-p ($font-main,1rem,0.75rem,0.75rem,center,0rem,1rem);
+}
+
+//Index page
+.service--position {
+    align-items: center;
+}
+.align {
+    &--serv1{
+        @include txt-almar(left,0.75rem);
+    }
+    &--serv2{
+        @include txt-almar(right,0.75rem);
+    }
+}
+//Porfolio page
+.card {
+    background-color: $dark-bg;
+}
+//Cases page
+iframe {
+    width: 100%;
+    height: 341px;
+}
+.stars {
+    font-size: 1.5rem;
+}

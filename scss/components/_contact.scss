@@ -1,0 +1,24 @@
+//Contact page form
+form {
+    font-family: $font-main;
+    text-align: center;
+    justify-content: center;
+}
+.form-control:focus {
+    font-family: $font-main;
+    box-shadow: 0 0 0 0.1rem $form-focus;
+}
+.map {
+    justify-content: center;
+}
+.floatingInput {
+    font-family: $font-main;
+} 
+.modal {
+    &-footer{
+        justify-content: center;
+    }
+    &-header {
+        align-self: center;
+    }
+}

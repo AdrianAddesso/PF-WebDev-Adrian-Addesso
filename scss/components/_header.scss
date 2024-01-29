@@ -1,0 +1,68 @@
+//Navigation bar
+.logo {
+    @include size-wh (75px,75px);
+}
+.nav{
+    font-family: $font-main;
+    background-color: $nav-bg;
+    padding-top: 0.5rem;
+    &--margins {
+        margin-top: 0px;
+    }
+    &-link-color{
+        color: #004848;
+    }
+    &-link {
+        @include padding-tb(0.25rem,0.25rem);
+    }
+    &-title{
+        margin-bottom: 0px;
+    }
+    &--margins {
+        margin-top: 0px;
+    }
+}
+
+.navbar {
+    @include padding-tb(0rem,0rem);
+    position: sticky;
+    &-brand{
+        margin-right: 0px;
+    }
+    &-toggler:focus {
+        box-shadow: none;
+    }
+    &-toggler:hover {
+        box-shadow: none;
+        background-color: $burger-bg;
+    }
+}
+//Folding menu
+.offcanvas {
+    --bs-offcanvas-width: 25%;
+    &-header {
+        @include padding-lrbg;
+        @include padding-tb(0.5rem,0.5rem);
+    }
+    &-body {
+        @include padding-lrbg;
+        padding-top: 0px;
+    }
+}
+.dropdown {
+    &-item.active {
+        background-color:$nav-active-bg;
+        color: $nav-active-col;
+    }
+    &-menu.show {
+        background-color: transparent;
+        border:none;
+        @include padding-tb(0rem,0.25rem);
+    }
+}
+.active {
+    text-decoration: underline;
+    &--dropdown {
+        text-decoration:none;
+    }
+}

@@ -8,6 +8,222 @@
   font-family: "josefin";
   src: url(../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
 }
+h1 {
+  font-family: "josefin";
+  font-size: 3rem;
+  padding-top: 1.25rem;
+  padding-bottom: 0.75rem;
+  text-align: center;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+h2 {
+  font-family: "josefin";
+  font-size: 2rem;
+  text-align: center;
+}
+
+h3 {
+  font-family: "josefin";
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.container-fluid {
+  padding-left: 7%;
+  padding-right: 7%;
+  margin-top: 1.5rem;
+}
+
+.bg-body-tertiary {
+  background-color: aquamarine;
+}
+
+.border {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.p--centered {
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-family: "josefin";
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  text-align: center;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+
+.service--position {
+  align-items: center;
+}
+
+.align--serv1 {
+  text-align: left;
+  margin-top: 0.75rem;
+}
+.align--serv2 {
+  text-align: right;
+  margin-top: 0.75rem;
+}
+
+.card {
+  background-color: rgba(0, 255, 255, 0.0588235294);
+}
+
+iframe {
+  width: 100%;
+  height: 341px;
+}
+
+.stars {
+  font-size: 1.5rem;
+}
+
+.logo {
+  width: 75px;
+  height: 75px;
+}
+
+.nav {
+  font-family: "josefin";
+  background-color: rgba(0, 255, 255, 0.1960784314);
+  padding-top: 0.5rem;
+}
+.nav--margins {
+  margin-top: 0px;
+}
+.nav-link-color {
+  color: #004848;
+}
+.nav-link {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.nav-title {
+  margin-bottom: 0px;
+}
+.nav--margins {
+  margin-top: 0px;
+}
+
+.navbar {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  position: sticky;
+}
+.navbar-brand {
+  margin-right: 0px;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar-toggler:hover {
+  box-shadow: none;
+  background-color: rgba(128, 128, 128, 0.3450980392);
+}
+
+.offcanvas {
+  --bs-offcanvas-width: 25%;
+}
+.offcanvas-header {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: rgba(0, 255, 255, 0.0588235294);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.offcanvas-body {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: rgba(0, 255, 255, 0.0588235294);
+  padding-top: 0px;
+}
+
+.dropdown-item.active {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+.dropdown-menu.show {
+  background-color: transparent;
+  border: none;
+  padding-top: 0rem;
+  padding-bottom: 0.25rem;
+}
+
+.active {
+  text-decoration: underline;
+}
+.active--dropdown {
+  text-decoration: none;
+}
+
+.btn {
+  color: #004848;
+  background-color: transparent;
+  border-color: #004848;
+  font-family: "josefin";
+  border-width: 2px;
+}
+.btn:hover {
+  color: #0d6efd;
+  background-color: rgba(0, 255, 255, 0.0588235294);
+  border-color: #0d6efd;
+  border-width: 2px;
+}
+.btn-outline-primary {
+  background-color: transparent;
+  border-color: #004848;
+  font-family: "josefin";
+  text-align: center;
+}
+.btn--home {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+form {
+  font-family: "josefin";
+  text-align: center;
+  justify-content: center;
+}
+
+.form-control:focus {
+  font-family: "josefin";
+  box-shadow: 0 0 0 0.1rem #0d6efd;
+}
+
+.map {
+  justify-content: center;
+}
+
+.floatingInput {
+  font-family: "josefin";
+}
+
+.modal-footer {
+  justify-content: center;
+}
+.modal-header {
+  align-self: center;
+}
+
+footer {
+  margin-top: 1.5rem;
+}
+
+.sticky-bottom {
+  position: sticky;
+  bottom: 0;
+}
+
 @media (max-width: 480px) {
   h1 {
     font-size: 2.5rem;
@@ -17,11 +233,15 @@
   h2 {
     font-size: 1.5rem;
   }
-  h2-nav {
-    font-size: 28px;
-  }
   h3 {
     font-size: 1rem;
+  }
+  .nav-title {
+    font-size: 28px;
+  }
+  .nav-link {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
   .offcanvas {
     --bs-offcanvas-width: 100%;
@@ -33,6 +253,60 @@
   .btn-close {
     width: 2px;
     height: 2px;
+  }
+  .offcanvas-header {
+    padding-top: 1rem;
+    padding-bottom: 0.75rem;
+  }
+  .offcanvas-body {
+    padding-top: 0rem;
+  }
+  .dropdown-menu {
+    margin-top: 0rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+  .dropdown-item {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .imgshow--desktop {
+    display: none;
+  }
+  .img-fluid {
+    max-width: 80%;
+    max-height: 80%;
+    margin-bottom: 0.75rem;
+  }
+  .align--serv1 {
+    text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+  .align--serv2 {
+    text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+}
+@media (min-width: 480px) and (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  .btn-close {
+    width: 2px;
+    height: 2px;
+  }
+  .offcanvas {
+    --bs-offcanvas-width: 75%;
   }
   .offcanvas-header {
     padding-top: 1rem;
@@ -55,84 +329,24 @@
     padding-bottom: 1rem;
   }
   .img-fluid {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 80%;
+    max-height: 80%;
     margin-bottom: 0.75rem;
-  }
-  .align--s1 {
-    text-align: center;
-    margin-bottom: 0rem;
-    margin-top: 0rem;
-  }
-  .align--s2 {
-    text-align: center;
-    margin-bottom: 0rem;
-    margin-top: 0rem;
   }
   .imgshow--desktop {
     display: none;
   }
-}
-/* >>>  >>> Folding menu with 480<width<600*/
-@media (min-width: 480px) and (max-width: 600px) {
-  h1 {
-    font-size: 2.5rem;
-    padding-top: 0.75rem;
-    padding-bottom: 0.5rem;
-  }
-  h2 {
-    font-size: 1.5rem;
-  }
-  h3 {
-    font-size: 1.25rem;
-  }
-  .offcanvas {
-    --bs-offcanvas-width: 75%;
-  }
-  .btn-close {
-    width: 2px;
-    height: 2px;
-  }
-  .offcanvas-header {
-    padding-top: 1rem;
-    padding-bottom: 0.75rem;
-  }
-  .offcanvas-body {
-    padding-top: 0rem;
-  }
-  .nav-link {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  .dropdown-menu.show {
-    margin-top: 0rem;
-    padding-top: 0rem;
-    padding-bottom: 0rem;
-  }
-  .dropdown-item {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  .img-fluid {
-    max-width: 200px;
-    max-height: 200px;
-    margin-bottom: 0.75rem;
-  }
-  .align--s1 {
+  .align--serv1 {
     text-align: center;
-    margin-bottom: 0rem;
     margin-top: 0rem;
+    margin-bottom: 0rem;
   }
-  .align--s2 {
+  .align--serv2 {
     text-align: center;
-    margin-bottom: 0rem;
     margin-top: 0rem;
-  }
-  .imgshow--desktop {
-    display: none;
+    margin-bottom: 0rem;
   }
 }
-/* >>>  >>> Folding menu with 601<width<768*/
 @media (min-width: 601px) and (max-width: 768px) {
   h1 {
     font-size: 2.5rem;
@@ -153,7 +367,7 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-  .dropdown-menu.show {
+  .dropdown-menu {
     margin-top: 0rem;
     padding-top: 0rem;
     padding-bottom: 0rem;
@@ -163,21 +377,20 @@
     padding-bottom: 1rem;
   }
   .img-fluid {
-    max-width: 200px;
-    max-height: 200px;
-  }
-  .align--s1 {
-    text-align: center;
-  }
-  .align--s2 {
-    text-align: center;
+    max-width: 80%;
+    max-height: 80%;
   }
   .imgshow--desktop {
     display: none;
   }
+  .align--serv1 {
+    text-align: center;
+  }
+  .align--serv2 {
+    text-align: center;
+  }
 }
-/* >>>  >>> Folding menu with 768<width*/
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .imgshow--mobile {
     display: none;
   }

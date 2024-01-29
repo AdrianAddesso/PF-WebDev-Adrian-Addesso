@@ -16,10 +16,9 @@ Actualmente seteado en el branch "PreEntrega2". Se seteará en "main" cuando se 
 
 ### Commits en progreso 🚧
 - 🚧 Review CSS for missing BEM notations & fixes
-- 🚧 Migrate to SASS
+- 🚧 Add animations
 
 ### Commits planificados 💡
-- 💡 Add animations
 
 ### Commits realizados ✅
 - ✅ BS delcared in all pages 
@@ -38,3 +37,4 @@ Actualmente seteado en el branch "PreEntrega2". Se seteará en "main" cuando se 
 - ✅ Added <head> to the Nav elements, and replaced <div> for more proper semantic tags
 - ✅ Install SASS
 - ✅ Crear git.ignore
+- ✅ Migrate to SASS, plus mixins and variables. Ignored css and css stylesheet backups. Updated the headers
