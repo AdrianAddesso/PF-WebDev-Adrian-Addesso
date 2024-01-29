@@ -22,9 +22,6 @@
     .offcanvas {
          --bs-offcanvas-width: 100%;
      }
-    .logo {
-        @include size-wh (50px,50px);
-     }
     .btn-close {
         @include size-wh (2px,2px);
     }
@@ -62,6 +59,9 @@
             @include align-margins(center,0rem,0rem);
         }
     }
+    .logo {
+        @include size-wh (50px,50px);
+     }
 }
 //Folding menu with 480<width<600*
 @media (min-width: 480px) and (max-width: 600px){

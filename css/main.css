@@ -1,3 +1,18 @@
+.logo-sm {
+  width: 50px;
+  height: 50px;
+}
+
+.logo-md {
+  width: 63px;
+  height: 63px;
+}
+
+.logo-lg {
+  width: 75px;
+  height: 75px;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -225,6 +240,9 @@ footer {
 }
 
 @media (max-width: 480px) {
+  .logo {
+    @exte;
+  }
   h1 {
     font-size: 2.5rem;
     padding-top: 0.75rem;
@@ -245,10 +263,6 @@ footer {
   }
   .offcanvas {
     --bs-offcanvas-width: 100%;
-  }
-  .logo {
-    width: 50px;
-    height: 50px;
   }
   .btn-close {
     width: 2px;

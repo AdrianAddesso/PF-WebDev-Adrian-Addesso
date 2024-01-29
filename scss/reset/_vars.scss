@@ -17,9 +17,15 @@ $form-focus: #0d6efd;
 $cta: #004848;
 
 
+$thumbnails:(
+    sm: 20px,
+    md: 40px,
+    lg: 60px,
+);
 
-
-
-
-
-
+@each $screen, $size in $thumbnails{
+    .logo-#{$screen}{
+        width: $size;
+        height: $size;
+    }
+}
