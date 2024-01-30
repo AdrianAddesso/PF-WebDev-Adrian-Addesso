@@ -16,7 +16,6 @@ Actualmente seteado en el branch "PreEntrega2". Se seteará en "main" cuando se 
 
 ### Commits en progreso 🚧
 - 🚧 Review CSS for missing BEM notations & fixes
-- 🚧 Add animations
 
 ### Commits planificados 💡
 
@@ -38,3 +37,4 @@ Actualmente seteado en el branch "PreEntrega2". Se seteará en "main" cuando se 
 - ✅ Install SASS
 - ✅ Crear git.ignore
 - ✅ Migrate to SASS, plus mixins and variables. Ignored css and css stylesheet backups. Updated the headers
+- ✅ Added animations in Index and Portfolio from Animista 
