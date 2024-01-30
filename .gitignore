@@ -8,10 +8,3 @@ img_cache
 # VSC config files
 .vscode/settings.json
 .vscode
-
-#CSS Backup
-.css/css backup
-.css/css backup/old_styles.css
-
-#Old CSS
-style.css
