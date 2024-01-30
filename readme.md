@@ -1,18 +1,19 @@
 # Repo para el curso de WebDevelopment de CoderHouse | Alumno Adrian Addesso
 
 ## Build and deployment
-Actualmente seteado en el branch "PreEntrega2". Se seteará en "main" cuando se haya aprobado o revisado
+Actualmente seteado en el branch "PreEntrega3". Se seteará en "main" cuando se haya aprobado o revisado el proyecto final
 
-> https://github.com/AdrianAddesso/webdev-entrega-2.git
+> https://adrianaddesso.github.io/PF-WebDev-Adrian-Addesso/
 
 ## Notas para el dev
 1. El branch PreEntrega1 tiene el entregable ya corregido
-2. El branch PreEntrega2 se utilizará hasta cuando sea corregida la entrega, para luego pushear a Main
-3. Se creará un nuevo Branch para la entrega final (nombre a definir)
+2. El branch PreEntrega2 tiene el entregable ya corregido
+3. El branch PreEntrega3 está a disposición para revisión
+4. La entrega del proyecto final se hará en MAIN una vez corregida la PreEntrega3
 
 ## Plan de trabajo
 ### Issues ❗
-- No issues...enjoy!
+- No issues
 
 ### Commits en progreso 🚧
 - 🚧 Review CSS for missing BEM notations & fixes
