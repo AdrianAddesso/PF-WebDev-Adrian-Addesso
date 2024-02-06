@@ -13,7 +13,12 @@ Actualmente seteado en el branch "PreEntrega3". Se seteará en "main" cuando se 
 
 ## Plan de trabajo
 ### Issues ❗
-- No issues
+- Semántica y estructura: Revisar
+     - En index.html, revisar la ruta del logo, ya que no aparece en web, sería ./img
+     - Revisar el uso de div (rever si es necesaria tantas div o cambiarlas por otras etiquetas de peso semantico-html5), recuerda que puedes modificar los componentes de BS
+ - Orden: Revisar (gitignore)
+     - En este caso veo que escribes los archivos a ocultar dentro del ignore, pero el * y / van al final de declarar el nombre del archivo-carpeta.
+     - No olvides hacer el comando del remove para poder subir el cambio al repositorio
 
 ### Commits en progreso 🚧
 - 🚧 Review CSS for missing BEM notations & fixes
