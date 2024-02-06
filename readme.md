@@ -1,27 +1,26 @@
 # Repo para el curso de WebDevelopment de CoderHouse | Alumno Adrian Addesso
 
 ## Build and deployment
-Actualmente seteado en el branch "PreEntrega3". Se seteará en "main" cuando se haya aprobado o revisado el proyecto final
+Actualmente seteado en el branch "Final". Se seteará en "main" cuando se haya aprobado o revisado el proyecto final
 
 > https://adrianaddesso.github.io/PF-WebDev-Adrian-Addesso/
 
 ## Notas para el dev
-1. El branch PreEntrega1 tiene el entregable ya corregido
-2. El branch PreEntrega2 tiene el entregable ya corregido
-3. El branch PreEntrega3 está a disposición para revisión
-4. La entrega del proyecto final se hará en MAIN una vez corregida la PreEntrega3
+1. El branch **PreEntrega1** tiene el entregable ya corregido
+2. El branch **PreEntrega2** tiene el entregable ya corregido
+3. El branch **PreEntrega3** tiene el entregable ya corregido
+4. El branch **Final** esta en construcción
+4. La entrega del proyecto final se hará en **main** una vez corregida el branch **Final**
 
 ## Plan de trabajo
 ### Issues ❗
-- Semántica y estructura: Revisar
-     - Revisar el uso de div (rever si es necesaria tantas div o cambiarlas por otras etiquetas de peso semantico-html5), recuerda que puedes modificar los componentes de BS
-     Corregir la semantica de git.ignore (* y / respectivamente)
-     git rm -r --cached xxxx donde xxxx es el nombre del archivo, para aquellos que estan en el ignore pero se subieron a repo.
 
 ### Commits en progreso 🚧
 - 🚧 Review CSS for missing BEM notations & fixes
 
 ### Commits planificados 💡
+- 💡SEO tags
+- 💡Server upload
 
 ### Commits realizados ✅
 - ✅ BS delcared in all pages 
@@ -42,5 +41,8 @@ Actualmente seteado en el branch "PreEntrega3". Se seteará en "main" cuando se 
 - ✅ Crear git.ignore
 - ✅ Migrate to SASS, plus mixins and variables. Ignored css and css stylesheet backups. Updated the headers
 - ✅ Added animations in Index and Portfolio from Animista 
-
 - ✅ Fixed index.html logo route
+- ✅ Upgraded html tags in all pages
+- ✅ Updated gitignore file
+- ✅ removed unnecessary files from remote repo
+
