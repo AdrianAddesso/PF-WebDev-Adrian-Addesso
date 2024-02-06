@@ -1,10 +1,8 @@
 # Files to ignore
-package.json
-img_cache
+package.json*
+img_cache*
 *.txt
-.fonts/Josefin_Sans/README.txt
-.fonts/Josefin_Sans/OFL.txt
+.fonts/Josefin_Sans/
 
 # VSC config files
-.vscode/settings.json
-.vscode
+.vscode/
