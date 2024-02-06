@@ -14,11 +14,9 @@ Actualmente seteado en el branch "PreEntrega3". Se seteará en "main" cuando se 
 ## Plan de trabajo
 ### Issues ❗
 - Semántica y estructura: Revisar
-     - En index.html, revisar la ruta del logo, ya que no aparece en web, sería ./img
      - Revisar el uso de div (rever si es necesaria tantas div o cambiarlas por otras etiquetas de peso semantico-html5), recuerda que puedes modificar los componentes de BS
- - Orden: Revisar (gitignore)
-     - En este caso veo que escribes los archivos a ocultar dentro del ignore, pero el * y / van al final de declarar el nombre del archivo-carpeta.
-     - No olvides hacer el comando del remove para poder subir el cambio al repositorio
+     Corregir la semantica de git.ignore (* y / respectivamente)
+     git rm -r --cached xxxx donde xxxx es el nombre del archivo, para aquellos que estan en el ignore pero se subieron a repo.
 
 ### Commits en progreso 🚧
 - 🚧 Review CSS for missing BEM notations & fixes
@@ -30,7 +28,7 @@ Actualmente seteado en el branch "PreEntrega3". Se seteará en "main" cuando se 
 - ✅ Fixed tabulation in all pages
 - ✅ Implement responsive Nav sticky Component in all pages
 - ✅ Implement responsive Footer Component in all pages
-- ✅ Updated GRID in Index.html + Added buttons and card style in Index.html + Updated Portfolio, Cases and Index images + Content Translation + Define GRID in Portfolio.html
+- ✅ Updated GRID in Index.html + Added buttons and card style in Index.html + Updated Portfolio, Cases and Index images + Content Translation + Defined GRID in Portfolio.html
 - ✅ Added favicon
 - ✅ Added readme.md
 - ✅ Improve the order of style.css elements
@@ -44,3 +42,5 @@ Actualmente seteado en el branch "PreEntrega3". Se seteará en "main" cuando se 
 - ✅ Crear git.ignore
 - ✅ Migrate to SASS, plus mixins and variables. Ignored css and css stylesheet backups. Updated the headers
 - ✅ Added animations in Index and Portfolio from Animista 
+
+- ✅ Fixed index.html logo route
