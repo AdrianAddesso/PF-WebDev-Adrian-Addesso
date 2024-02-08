@@ -16,11 +16,6 @@ Actualmente seteado en el branch **Final**. Se seteará en **main** cuando se ha
 ## Plan de trabajo
 ### Issues ❗
 #### Make these fixes to go above 85 score
-- ❗ add  Robots.txt Guide
-- ❗ add sitemap.xml
-- ❗ metadescriptions between 50 and 160
-- ❗ page title between 55 and 66 characters
-- ❗ 14 tags <a> without the title attribute.
 - ❗ Optimize opengrap: The tag meta property="og:description" is missing.
 - ❗ ptimize opengrap: The tag meta property="og:site_name" is missing.
 #### nice to haves
@@ -57,4 +52,9 @@ Actualmente seteado en el branch **Final**. Se seteará en **main** cuando se ha
 - ✅ SEO tags
 - ✅ Server upload
 - ✅ Cleaned images and optimized finals
+- ✅ Added Robots.txt Guide
+- ✅ Added sitemap.xml
+- ✅ Updated metadescriptions to make them below 160 chars
+- ✅ Updated page titles between 55 and 66 characters
+- ✅ Added title attributes to +14 <a> tags
 
