@@ -3,8 +3,8 @@
 ## Build and deployment
 Actualmente seteado en el branch **Final**. Se seteará en **main** cuando se haya aprobado o revisado el proyecto final
 
-> https://adrianaddesso.github.io/PF-WebDev-Adrian-Addesso/
-> 
+> Github Deploy: https://adrianaddesso.github.io/PF-WebDev-Adrian-Addesso/
+> Hosting: https://coderhouse-pf-superseg.000webhostapp.com/
 
 ## Notas para el dev
 1. El branch **PreEntrega1** tiene el entregable ya corregido
@@ -15,6 +15,16 @@ Actualmente seteado en el branch **Final**. Se seteará en **main** cuando se ha
 
 ## Plan de trabajo
 ### Issues ❗
+#### Make these fixes to go above 85 score
+- ❗ add  Robots.txt Guide
+- ❗ add sitemap.xml
+- ❗ metadescriptions between 50 and 160
+- ❗ page title between 55 and 66 characters
+- ❗ 14 tags <a> without the title attribute.
+- ❗ Optimize opengrap: The tag meta property="og:description" is missing.
+- ❗ ptimize opengrap: The tag meta property="og:site_name" is missing.
+#### nice to haves
+- ❗ Leverage the `font-display` CSS feature to ensure text is user-visible while webfonts are loading.
 
 ### Commits en progreso 🚧
 - 🚧 Review CSS for missing BEM notations & fixes
