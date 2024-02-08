@@ -46,4 +46,5 @@ Actualmente seteado en el branch **Final**. Se seteará en **main** cuando se ha
 - ✅ removed unnecessary files from remote repo
 - ✅ SEO tags
 - ✅ Server upload
+- ✅ Cleaned images and optimized finals
 
