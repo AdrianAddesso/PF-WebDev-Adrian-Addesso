@@ -17,7 +17,6 @@ Actualmente seteado en el branch **Final**. Se seteará en **main** cuando se ha
 ### Issues ❗
 
 #### nice to haves
-- ❗ Leverage the `font-display` CSS feature to ensure text is user-visible while webfonts are loading.
 
 ### Commits en progreso 🚧
 - 🚧 Review CSS for missing BEM notations & fixes
@@ -56,3 +55,4 @@ Actualmente seteado en el branch **Final**. Se seteará en **main** cuando se ha
 - ✅ Updated page titles between 55 and 66 characters
 - ✅ Added title attributes to +14 <a> tags
 - ✅ Added og:description and og:site_name
+- ✅ Added `font-display` into @font-face
