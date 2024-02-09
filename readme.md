@@ -5,6 +5,7 @@ Actualmente seteado en el branch **Final**. Se seteará en **main** cuando se ha
 
 > Github Deploy: https://adrianaddesso.github.io/PF-WebDev-Adrian-Addesso/
 > Hosting: https://coderhouse-pf-superseg.000webhostapp.com/
+> Vercel: https://pf-web-dev-adrian-addesso.vercel.app/
 
 ## Notas para el dev
 1. El branch **PreEntrega1** tiene el entregable ya corregido
