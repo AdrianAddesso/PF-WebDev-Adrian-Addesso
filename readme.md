@@ -15,9 +15,7 @@ Actualmente seteado en el branch **Final**. Se seteará en **main** cuando se ha
 
 ## Plan de trabajo
 ### Issues ❗
-#### Make these fixes to go above 85 score
-- ❗ Optimize opengrap: The tag meta property="og:description" is missing.
-- ❗ ptimize opengrap: The tag meta property="og:site_name" is missing.
+
 #### nice to haves
 - ❗ Leverage the `font-display` CSS feature to ensure text is user-visible while webfonts are loading.
 
@@ -57,4 +55,4 @@ Actualmente seteado en el branch **Final**. Se seteará en **main** cuando se ha
 - ✅ Updated metadescriptions to make them below 160 chars
 - ✅ Updated page titles between 55 and 66 characters
 - ✅ Added title attributes to +14 <a> tags
-
+- ✅ Added og:description and og:site_name
